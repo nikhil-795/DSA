@@ -16,6 +16,6 @@ public class EvenOrOdd {
         int inputNumber=sc.nextInt();
         EvenOrOdd e=new EvenOrOdd();
         e.check(inputNumber);
-        
+        sc.close();
     }
 }

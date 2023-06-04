@@ -17,5 +17,6 @@ public class CheckForInterger {
         int inputInteger=sc.nextInt();
         CheckForInterger c=new CheckForInterger();
         c.check(inputInteger);
+        sc.close();
     }
 }
