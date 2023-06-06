@@ -4,7 +4,7 @@ public class CheckPrime {
         if(input<=1){
             System.out.println("enter value is not Prime");
         }
-        
+        System.out.println("help");
      }
     
     public static void main(String[] args) {
