@@ -1,11 +1,24 @@
+import java.util.Scanner;
+
 public class CheckPrime {
 
      public void check(int input){
-        if(input<=1){
-            System.out.println("enter value is not Prime");
+        //using flag to check true or false
+        boolean flag=true;
+
+        //running loop from input=2 to squart root of input 
+        for(int start=2;start*start<=input;start++){
+
+            if(input%start==0){
+                flag=false;
+                break;
+            }
         }
-        System.out.println("help");
-        System.out.println("hellow");
+        if(flag){
+            System.out.println(input+" is prime");
+        }else{
+            System.out.println(input+" is not prime");
+        }
      }
     
     public static void main(String[] args) {
