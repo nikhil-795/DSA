@@ -5,6 +5,7 @@ public class CheckPrime {
             System.out.println("enter value is not Prime");
         }
         System.out.println("help");
+        System.out.println("hellow");
      }
     
     public static void main(String[] args) {
