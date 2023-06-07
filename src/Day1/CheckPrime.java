@@ -1,3 +1,4 @@
+package Day1;
 import java.util.Scanner;
 
 public class CheckPrime {
@@ -27,6 +28,7 @@ public class CheckPrime {
         int input=sc.nextInt();
         CheckPrime c=new CheckPrime();
         c.check(input);
+        sc.close();
     }
     
 }
