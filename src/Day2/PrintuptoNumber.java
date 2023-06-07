@@ -6,6 +6,7 @@ public class PrintuptoNumber {
     public void check(int inputInteger){
         for(int start=1;start<=inputInteger;start++){
             System.out.println(start);
+            
         }
     }
     public static void main(String[] args) {
