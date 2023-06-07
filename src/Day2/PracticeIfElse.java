@@ -8,6 +8,7 @@ public class PracticeIfElse {
         if(input==9){
             System.out.println("Niney");
         }
+        
         if(input>0){
             System.out.println("positive number");
         }

@@ -8,6 +8,7 @@ public class GreaterNumber {
         if(firstNumber>secondNumber){
             System.out.println("first Number is greater");
         }
+        
         else{
             System.out.println("Second number is greater");
         }
